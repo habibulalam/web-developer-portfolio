@@ -1,6 +1,22 @@
 /* mixed styles */
 body {
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 /* navigation styles */
@@ -51,17 +67,55 @@ nav a {
 
 /* header styles */
 .header {
-    background-color: #ffd6b8;
-    ;
+    background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .banner {
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content {
+    max-width: 550px;
 }
 
 .banner .profile-picture {
     width: 500px;
-    
+}
+
+.banner-greeting {
+    font-size: 45px;
+    color: #181818;
+    margin-bottom: 0;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+
+}
+
+.banner-discrption {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* main section style */
+
+/* about section style */
+.about {
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 190px;
+    padding: 130px;
+    text-align: center;
 }
